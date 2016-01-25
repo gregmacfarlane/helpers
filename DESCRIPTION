@@ -1,10 +1,11 @@
 Package: helpers
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1
+Title: Helper Formulae
+Version: 0.0.9000
 Date: 2016-01-25
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Greg", "Macfarlane", email = "gregmacfarlane@gmail.com",
+  role = c("aut", "cre"))
+Description: There are lots of formulae that I regularly have to recode to include
+    in documents and analyses. This simply puts them all into a regular place.
+License: MIT
 LazyData: TRUE
