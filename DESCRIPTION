@@ -5,7 +5,10 @@ Version: 0.0.9000
 Date: 2016-01-25
 Authors@R: person("Greg", "Macfarlane", email = "gregmacfarlane@gmail.com",
   role = c("aut", "cre"))
-Description: There are lots of formulae that I regularly have to recode to include
-    in documents and analyses. This simply puts them all into a regular place.
-License: MIT
+Description: There are lots of formulae that I regularly have to recode to
+    include in documents and analyses. This simply puts them all into a regular
+    place.
+License: MIT + file LICENSE
 LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: testthat
