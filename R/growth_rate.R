@@ -15,9 +15,6 @@
 #' calc_exprate(10, 12, 2010, 2040)
 calc_exprate <- function(p1, p2, t1, t2){
   # p2 = p1e^{r(t2 - t1)}
-  if(p1 == 0){
-    p1 <- 1e-6  # do not allow infinite growth
-  }
 
   (log(p2) - log(p1)) / (t2 - t1)
 }
